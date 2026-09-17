@@ -145,6 +145,8 @@ def convertit(md):
             ferme_liste()
             paragraphe.append(nu)
     ferme_paragraphe(); ferme_liste()
+    while corps and corps[-1] == "<hr>":
+        corps.pop()          # le pied de page du gabarit porte deja son trait
     return titre, sous_titre, "\n".join(corps)
 
 
