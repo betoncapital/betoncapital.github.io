@@ -32,6 +32,8 @@ CADRATINS = {"—": "tiret cadratin", "–": "tiret demi-cadratin"}
 MENTIONS_INTERNES = (
     re.compile(r"^Adresse pr[ée]vue\s*:"),
     re.compile(r"^Aucun tiret cadratin"),
+    # la signature de fin figure deja dans le pied de page du gabarit
+    re.compile(r"^\*?B[ée]ton (&|et) Capital est une publication"),
 )
 
 MODELE = """<!DOCTYPE html>

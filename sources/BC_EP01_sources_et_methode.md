@@ -22,7 +22,7 @@ retenu la source primaire et écarté l'autre, y compris lorsque la version de
 presse était plus spectaculaire.
 
 Un exemple. Une version antérieure de notre dossier affirmait que la centrale
-sous produisait. C'était faux : nous avions pris une année partielle pour une
+sous-produisait. C'était faux : nous avions pris une année partielle pour une
 année pleine. La centrale a dépassé son productible prévisionnel. La
 correction a été faite avant le montage, et l'épisode dit l'inverse de ce que
 nous pensions au départ.
@@ -54,7 +54,7 @@ primaire consultée ne la donne.
 
 **Le contrat d'achat d'électricité.** Nous n'en avons pas obtenu le texte. Ce
 qui en est dit dans l'épisode vient de la façon dont les documents des bailleurs
-le décrivent, pas du contrat lui même. La durée de 35 ans, le tarif, et la
+le décrivent, pas du contrat lui-même. La durée de 35 ans, le tarif, et la
 nature take or pay de la clause sont attestés par ces documents. Les modalités
 précises de déclenchement du paiement ne le sont pas.
 
@@ -146,7 +146,7 @@ seulement « un montage primé fin 2018 ».
 - Investir au Cameroun, la Socadel hérite d'un déficit mensuel de 13 milliards de FCFA, mai 2026
   https://www.investiraucameroun.com/gestion-publique/1505-23398-electricite-la-socadel-herite-d-un-deficit-financier-mensuel-de-13-milliards-de-fcfa
 
-- Investir au Cameroun, tribune, le secteur de l'électricité pourrait il disjoncter
+- Investir au Cameroun, tribune, le secteur de l'électricité pourrait-il disjoncter
   https://www.investiraucameroun.com/energie/0301-22935-cameroun-le-secteur-de-l-electricite-pourrait-il-disjoncter-tribune
 
 - Agence Ecofin, 126,2 millions USD d'impayés fragilisent le projet, février 2026
@@ -163,7 +163,7 @@ seulement « un montage primé fin 2018 ».
 ## Images et musique
 
 **Vues satellite.** Contains modified Copernicus Sentinel data. Images
-Sentinel 2, 10 m par pixel, traitées pour cet épisode.
+Sentinel-2, 10 m par pixel, traitées pour cet épisode.
 
 **Survols et plans d'ensemble.** Google Earth Studio. L'attribution Google
 apparaît dans le coin inférieur droit de chaque plan concerné, pour toute sa
@@ -183,7 +183,7 @@ commerciaux complets), pour Béton & Capital.
 
 ## Nous corriger
 
-Si un chiffre de cet épisode est faux, écrivez nous. Les corrections sont
+Si un chiffre de cet épisode est faux, écrivez-nous. Les corrections sont
 publiées sur cette page, datées, sans effacer la version d'origine.
 
 Contact : betoncapital.contact@gmail.com
