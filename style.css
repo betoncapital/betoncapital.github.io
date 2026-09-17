@@ -1,0 +1,103 @@
+/* Béton & Capital : charte de la chaîne (charte/palette.txt)
+   fond #0D0F13, texte #F0F2F5, secondaire #969EAA, faible #4E5662, accent #C68D3E */
+
+:root {
+  --fond: #0D0F13;
+  --texte: #F0F2F5;
+  --secondaire: #969EAA;
+  --faible: #4E5662;
+  --accent: #C68D3E;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--secondaire);
+  font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.page {
+  max-width: 47rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+header.marque { margin-bottom: 3rem; }
+
+header.marque a {
+  display: inline-block;
+  border: 0;
+}
+
+header.marque img {
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  display: block;
+}
+
+header.marque .barre {
+  width: 4.5rem;
+  height: 3px;
+  background: var(--accent);
+  margin-top: 0.75rem;
+}
+
+h1, h2, h3 {
+  color: var(--texte);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 { font-size: 1.9rem; margin: 0 0 0.4rem; }
+h1 + .sous-titre { color: var(--accent); font-size: 1.15rem; margin: 0 0 2rem; }
+h2 { font-size: 1.35rem; margin: 2.6rem 0 0.8rem; }
+h3 { font-size: 1.1rem; margin: 2rem 0 0.6rem; color: var(--secondaire); }
+
+p { margin: 0 0 1.1rem; }
+
+strong { color: var(--texte); font-weight: 700; }
+
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--faible); }
+a:hover, a:focus { border-bottom-color: var(--accent); }
+
+ul { padding-left: 1.2rem; margin: 0 0 1.4rem; }
+li { margin-bottom: 0.9rem; }
+
+li a { word-break: break-word; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--faible);
+  margin: 2.6rem 0;
+}
+
+.chapo {
+  color: var(--texte);
+  font-size: 1.05rem;
+}
+
+.episodes { list-style: none; padding: 0; }
+.episodes li { margin-bottom: 1.6rem; }
+.episodes .numero { color: var(--faible); font-size: 0.95rem; }
+.episodes .titre { color: var(--texte); font-size: 1.15rem; font-weight: 700; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--faible);
+  color: var(--faible);
+  font-size: 0.9rem;
+}
+
+footer a { color: var(--faible); }
+
+@media (max-width: 30rem) {
+  body { font-size: 17px; }
+  .page { padding: 2rem 1rem 3rem; }
+  h1 { font-size: 1.55rem; }
+}
