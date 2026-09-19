@@ -101,3 +101,16 @@ footer a { color: var(--faible); }
   .page { padding: 2rem 1rem 3rem; }
   h1 { font-size: 1.55rem; }
 }
+
+/* Pages bilingues : titre anglais, navigation de langue, sections */
+h1[lang] { margin-bottom: 0.3rem; }
+.titre-en { color: var(--secondaire); font-size: 1.15rem; margin: 0 0 1.4rem; }
+nav.langues { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; margin: 0 0 2rem; }
+.notice { margin: 0 0 1rem; }
+section[id] { scroll-margin-top: 1rem; }
+section[lang="en"], section#sources {
+  margin-top: 3.2rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--faible);
+}
+.sous-titre { color: var(--accent); font-size: 1.15rem; margin: 1.6rem 0 1rem; }
