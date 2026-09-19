@@ -189,6 +189,20 @@ Contact: <a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gm
 """
 
 
+KIT = ""     # lien d'inscription Kit, lu dans site.json par main()
+
+
+def inscription(fr):
+    """Bloc d'inscription, en fin de chaque section de langue ; omis si le lien est vide."""
+    if not KIT:
+        return ""
+    if fr:
+        return ('<h2>Recevoir les prochains épisodes</h2>\n'
+                '<p><a href="%s">S\'inscrire à la lettre de la chaîne</a></p>' % html.escape(KIT))
+    return ('<h2>Get the next episodes</h2>\n'
+            '<p><a href="%s">Subscribe to the channel newsletter</a></p>' % html.escape(KIT))
+
+
 def navigation(commune):
     liens = '<a href="#fr">Français</a> <a href="#en">English</a>'
     if commune:
@@ -209,7 +223,7 @@ def assemble(racine, titre_page, description, fr, en, commune="", notice=""):
         h += '<section id="%s" lang="%s">\n' % (lang, lang)
         if st:
             h += '<p class="sous-titre">%s</p>\n' % html.escape(st)
-        h += corps + "\n</section>\n"
+        h += corps + "\n" + inscription(lang == "fr") + "\n</section>\n"
     if commune:
         h += '<section id="sources">\n%s\n</section>\n' % commune
     h += PIED.format(racine=racine)
@@ -275,18 +289,7 @@ def episode_li(e, fr):
 
 
 def accueil(config, episodes):
-    kit = (config.get("kit_url") or "").strip()
-    if kit and not kit.startswith("https://"):
-        raise SystemExit("site.json : kit_url doit commencer par https://")
-
-    def inscription(fr):
-        if not kit:
-            return ""
-        if fr:
-            return ('<h2>Recevoir les prochains épisodes</h2>\n'
-                    '<p><a href="%s">S\'inscrire à la lettre de la chaîne</a></p>' % html.escape(kit))
-        return ('<h2>Get the next episodes</h2>\n'
-                '<p><a href="%s">Subscribe to the channel newsletter</a></p>' % html.escape(kit))
+    kit = KIT
 
     liste_fr = "\n".join(episode_li(e, True) for e in episodes)
     liste_en = "\n".join(episode_li(e, False) for e in episodes)
@@ -354,7 +357,11 @@ def main():
     """Les épisodes vivent dans episodes.json ; seuls ceux de episodes_en_ligne
     (site.json) sont fabriqués et listés. Un épisode absent de episodes.json
     ou de la liste n'existe pas dans le dépôt."""
+    global KIT
     config = json.load(open(os.path.join(RACINE, "site.json"), encoding="utf-8"))
+    KIT = (config.get("kit_url") or "").strip()
+    if KIT and not KIT.startswith("https://"):
+        raise SystemExit("site.json : kit_url doit commencer par https://")
     catalogue = json.load(open(os.path.join(RACINE, "episodes.json"), encoding="utf-8"))
     publies = config.get("episodes_en_ligne", [])
     inconnus = [i for i in publies if i not in catalogue]
