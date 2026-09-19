@@ -106,8 +106,7 @@ seulement « un montage primé fin 2018 ».
 
 - Société financière internationale, dossier projet Nachtigal, mai 2019
   https://www.ifc.org/en/stories/2010/nachtigal-cameroon-hydropower-plant-clean-power
-  *(antérieure à la mise en service : décrit le montage, pas l'exploitation.
-  Le segment 2010 dans l'adresse est un artefact de chemin, pas une date.)*
+  *(antérieure à la mise en service : décrit le montage, pas l'exploitation.)*
 
 - Africa50, entrée au capital, décembre 2018
   https://www.africa50.com/fr/actualite-et-perspectives/actualites/article/africa50-acquiert-15-du-capital-du-projet-hydroelectrique-de-nachtigal-au-cameroun-evalue-a-12-milliard-deuros-256/
@@ -174,8 +173,7 @@ durée. Elle n'est ni recadrée ni masquée.
 **Cartouche de situation sur la Sanaga.** Schéma de position, non à l'échelle.
 Les distances entre les sites ne sont pas représentées proportionnellement.
 
-**Musique.** Instrumentaux générés avec Mureka (abonnement Pro, droits
-commerciaux complets), pour Béton & Capital.
+**Musique.** Instrumentaux générés avec Mureka pour Béton & Capital.
 
 **Voix.** Voix de synthèse (ElevenLabs).
 
