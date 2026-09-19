@@ -168,7 +168,7 @@ def entete(racine, lang="fr"):
 <body>
 <div class="page">
 <header class="marque">
-<a href="{racine}"><img src="{racine}logo.svg" alt="Béton &amp; Capital"></a>
+<a href="/"><img src="{racine}logo.svg" alt="Béton &amp; Capital"></a>
 <div class="barre"></div>
 </header>
 <main>
@@ -181,7 +181,7 @@ PIED = """</main>
 Contact : <a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gmail.com</a></p>
 <p lang="en">Béton &amp; Capital is published by Sanaga Land International LLC.
 Contact: <a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gmail.com</a></p>
-<p><a href="{racine}">Accueil · Home</a></p>
+<p><a href="/">Accueil · Home</a></p>
 </footer>
 </div>
 </body>
