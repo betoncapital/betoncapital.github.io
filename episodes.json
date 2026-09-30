@@ -18,5 +18,32 @@
    "titre_en": "EDF, World Bank, €1.2 billion… And in the end, does the taxpayer pay?",
    "attente_en": "The English version of this page is being reviewed and will be published soon. The sources listed in the French section are the same."
   }
+ },
+ "ep02": {
+  "numero_fr": "Épisode 2",
+  "numero_en": "Episode 2",
+  "titre_fr": "Dangote : à qui appartient la raffinerie ?",
+  "titre_en": "Dangote: who owns the refinery?",
+  "resume_fr": "Une raffinerie de 650 000 barils par jour qui ouvre son capital au public,\net la question de qui a porté le risque avant elle.",
+  "resume_en": "A 650,000 barrel-a-day refinery opens its capital to the public, and the\nquestion of who carried the risk before it did.",
+  "lien_fr": "ep02/sources/#fr",
+  "lien_en": "ep02/sources/#en",
+  "page": {
+   "mode": "bilingue",
+   "dossier": "ep02/sources",
+   "md": "sources/BC_EP02_sources_et_methode.md",
+   "titres_fr": [
+    "Ce que nous avons fait",
+    "Comment lire les chiffres",
+    "Ce que cet épisode ne dit pas"
+   ],
+   "titres_en": [
+    "What we did",
+    "How to read the figures",
+    "What this episode does not say"
+   ],
+   "description": "Sources et méthode de l'épisode 2, Béton & Capital. Sources and method of episode 2.",
+   "mention": "<strong>Offre en cours au 13 octobre 2026.</strong> The offer is ongoing as of October 13, 2026. Le résultat sera ajouté sur cette page, daté. The outcome will be added to this page, dated."
+  }
  }
 }
