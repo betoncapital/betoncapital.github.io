@@ -2,8 +2,8 @@
  "ep01": {
   "numero_fr": "Épisode 1",
   "numero_en": "Episode 1",
-  "titre_fr": "Nachtigal : qui paie le barrage ?",
-  "titre_en": "Nachtigal: who pays for the dam?",
+  "titre_fr": "EDF, Banque mondiale, 1,2 milliard d'euros… Et à la fin, c'est le contribuable qui paie ?",
+  "titre_en": "EDF, The World Bank, €1.2 Billion… And In The End, The Taxpayer Pays?",
   "resume_fr": "Un barrage de 420 MW sur la Sanaga, un financement primé, et un acheteur\nqui ne paie plus ses factures.",
   "resume_en": "A 420 MW dam on the Sanaga, an award-winning financing, and a buyer that\nno longer pays its bills.",
   "lien_fr": "ep01/sources/",
@@ -15,7 +15,7 @@
    "fr": "sources/BC_EP01_sources_et_methode.md",
    "en": "sources/BC_EP01_sources_and_method.md",
    "description": "Sources et méthode de l'épisode 1, Béton & Capital. Sources and method of episode 1.",
-   "titre_en": "Nachtigal: who pays for the dam?",
+   "titre_en": "EDF, The World Bank, €1.2 Billion… And In The End, The Taxpayer Pays?",
    "attente_en": "The English version of this page is being reviewed and will be published soon. The sources listed in the French section are the same."
   }
  }
