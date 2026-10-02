@@ -1,0 +1,426 @@
+# Mombasa-Nairobi : qui rembourse le train ? · Mombasa-Nairobi: who repays the train?
+# Sources et méthode · Sources and method
+
+Béton & Capital, épisode 3. Page unique, bilingue, appelée depuis les deux
+vidéos (française et anglaise). One page, in both languages, linked from both
+videos.
+
+Adresse · Address : https://betoncapital.github.io/ep03/sources/
+Site de la chaîne · Channel website : https://betoncapital.github.io/
+
+Faits arrêtés au 30 septembre 2026. Facts as of September 30, 2026.
+
+Aucun tiret cadratin dans cette page. Nombres en chiffres.
+
+---
+
+## Ce que nous avons fait
+
+Cet épisode repose d'abord sur seize documents que nous avons lus nous-mêmes,
+pages citées dans nos notes : les trois contrats de prêt de China Exim (phase 1,
+mai 2014, et phase 2A, décembre 2015), l'accord de trafic garanti entre
+l'autorité portuaire et la compagnie ferroviaire (septembre 2014), le projet
+d'accord de séquestre (août 2014), trois décisions de justice (Haute Cour de
+Mombasa 2020, Cour d'appel 2020, Cour suprême 2023), le rapport spécial de la
+commission parlementaire des investissements publics (2014), deux rapports de
+l'Auditor-General sur Kenya Railways (2019/2020 et 2021/2022), le rapport annuel
+de gestion de la dette du Trésor (2024/2025), une revue trimestrielle du Trésor
+(février 2026), le règlement du fonds de la taxe ferroviaire (2013) et deux
+versions de la loi qui porte cette taxe (2023 et 2024).
+
+**D'où viennent ces copies.** Le gouvernement kényan n'a publié ni les contrats
+de prêt, ni l'accord de trafic, ni l'accord de séquestre. Les contrats de prêt
+que nous lisons sont les copies mises en ligne par Okoa Mombasa, une
+organisation de la société civile, après leur publication par le ministre des
+Transports en novembre 2022. L'accord de trafic et le projet de séquestre
+viennent des liens donnés par la base AidData. Les décisions de justice viennent
+de Kenya Law, les rapports d'audit de l'Auditor-General, les rapports de dette
+du Trésor, le rapport parlementaire d'une copie AfriCOG. Nous le disons parce
+qu'une copie de société civile n'est pas une publication officielle, même quand
+le texte est le bon.
+
+**Deux documents sont incomplets, et l'épisode le dit là où il s'en sert.**
+L'accord de trafic garanti nous arrive sans ses annexes 1 et 2, celles qui
+fixent le volume garanti année par année : il s'agit d'une pièce versée à un
+dossier judiciaire, pages 1 à 10 sur 12. Le profil des volumes ne nous est donc
+connu que par ce que la Haute Cour en dit dans son jugement de 2020. L'accord de
+séquestre, lui, n'est pas l'acte signé : c'est un projet arrêté le 20 août 2014
+par China Exim, le Trésor et Kenya Railways, dont la date et le nom de la banque
+sont laissés en blanc, et dont la copie s'arrête à l'article 3.4.3. Tout ce qui
+en vient est dit dans la vidéo comme venant d'un projet d'accord.
+
+**La presse n'intervient que pour ce que ces documents ne disent pas** : la
+conversion des prêts en yuans d'octobre 2025, le report des échéances à 2040 de
+décembre 2025, la première pierre du prolongement vers l'Ouganda de mars 2026,
+la rumeur de décembre 2018 sur le port donné en garantie, la retenue de fonds
+par l'autorité portuaire relevée par l'Auditor-General en 2025. À l'écran,
+chaque fait de presse porte une mention de source tant que la voix le dit.
+
+**Un second lecteur.** Le 19 septembre 2026, dix affirmations clés (montants,
+taux, durées, clauses d'inconditionnalité et d'immunité, droit applicable, dates
+de 2012, remboursements à China Exim, pertes de 2019/2020) ont été rouvertes sur
+les textes par quelqu'un qui n'avait pas écrit le dossier. Les dix sont
+confirmées. Le jugement de la Haute Cour de 2020 a fait l'objet d'un contrôle
+séparé, confirmé lui aussi.
+
+**Un exemple de ce que la lecture a changé.** Nos premières notes suivaient la
+rumeur de 2018 : le port de Mombasa aurait été donné en garantie. Dans les
+documents que nous avons lus, aucune clause ne donne le port en garantie. Ce que
+les textes donnent, c'est autre chose : un engagement de trafic, le reversement
+de frais de transport sur un compte bloqué, et une renonciation à l'immunité qui
+porte sur les biens de l'emprunteur. L'épisode dit cela, et dit aussi que les
+annexes manquantes et la version signée du séquestre n'ont pas pu être lues.
+
+## What we did
+
+This episode rests first on sixteen documents we read ourselves, with page
+references in our notes: the three China Exim loan agreements (phase 1, May
+2014, and phase 2A, December 2015), the take-or-pay agreement between the ports
+authority and the railway company (September 2014), the draft escrow agreement
+(August 2014), three court decisions (Mombasa High Court 2020, Court of Appeal
+2020, Supreme Court 2023), the special report of Parliament's Public Investments
+Committee (2014), two Auditor-General reports on Kenya Railways (2019/2020 and
+2021/2022), the Treasury's annual public debt management report (2024/2025), a
+Treasury quarterly review (February 2026), the railway development levy fund
+regulations (2013) and two versions of the act that carries that levy (2023 and
+2024).
+
+**Where these copies come from.** The Kenyan government published neither the
+loan agreements, nor the take-or-pay agreement, nor the escrow agreement. The
+loan agreements we read are the copies posted by Okoa Mombasa, a civil society
+organisation, after the Transport minister released them in November 2022. The
+take-or-pay agreement and the draft escrow come from links given by the AidData
+database. The judgments come from Kenya Law, the audit reports from the
+Auditor-General, the debt reports from the Treasury, the parliamentary report
+from an AfriCOG copy. We say so because a civil society copy is not an official
+publication, even when the text is the right one.
+
+**Two documents are incomplete, and the episode says so where it uses them.**
+The take-or-pay agreement reaches us without its schedules 1 and 2, the ones
+that set the guaranteed volume year by year: it is an exhibit filed in court
+proceedings, pages 1 to 10 of 12. The volume profile is therefore known to us
+only through what the High Court says about it in its 2020 judgment. The escrow
+agreement is not the signed deed: it is a draft finalized on August 20, 2014 by
+China Exim, the Treasury and Kenya Railways, with the date and the name of the
+bank left blank, and the copy stops at article 3.4.3. Everything drawn from it
+is stated in the video as coming from a draft agreement.
+
+**The press is used only for what those documents do not say**: the October 2025
+conversion of the loans into yuan, the December 2025 extension of maturities to
+2040, the March 2026 groundbreaking of the extension toward Uganda, the December
+2018 rumour that the port had been pledged, and the funds retained by the ports
+authority as flagged by the Auditor-General in 2025. On screen, every press fact
+carries a source label for as long as the voice states it.
+
+**A second reader.** On September 19, 2026, ten key claims (amounts, rates,
+terms, the unconditionality and immunity clauses, governing law, the 2012 dates,
+repayments to China Exim, the 2019/2020 losses) were reopened on the texts by
+someone who had not written the file. All ten are confirmed. The 2020 High Court
+judgment was checked separately, and confirmed as well.
+
+**One example of what reading changed.** Our early notes followed the 2018
+rumour: that the port of Mombasa had been pledged as collateral. In the
+documents we read, no clause pledges the port. What the texts do contain is
+something else: a traffic commitment, transport fees paid into a blocked
+account, and a waiver of immunity bearing on the borrower's assets. The episode
+says that, and also says that the missing schedules and the signed version of
+the escrow could not be read.
+
+---
+
+## Comment lire les chiffres
+
+**Les 3,6 milliards de dollars** sont la somme des deux prêts de la phase 1 :
+1 600 millions au titre du prêt préférentiel et 2 003,6 millions au titre du
+crédit acheteur. Addition, faite par nous, de deux montants lus dans les deux
+contrats.
+
+**Les 180 millions d'assurance** sont les 179,8 millions que le crédit acheteur
+consacre à 85 % de la prime d'assurance-crédit, lus dans le contrat. Ce n'est
+pas un coût caché : c'est une ligne du prêt.
+
+**Les 90 % et les 10 %** se lisent dans le détail des deux prêts, et ils tombent
+juste. Sur les 3 603,6 millions prêtés, 3 423,8 vont au contrat commercial
+(1 600 du prêt préférentiel, puis 849,0 et 974,8 du crédit acheteur), soit
+exactement 90,0 % des 3 804,2 millions du contrat ; les 179,8 millions restants
+sont la prime d'assurance. Le Kenya paie le reste, au moins 10 %, soit
+380,4 millions. La division est la nôtre, les quatre montants sont dans les
+contrats.
+
+**Une contradiction du contrat, que nous n'utilisons pas.** Le crédit acheteur
+chiffre la part du Kenya à 380 420 427,48 dollars et la présente comme
+« quinze pour cent du montant du contrat (installations et matériel roulant) ».
+Ce montant est 10 % du contrat total ; 15 % du seul poste matériel en feraient
+172,0. La vidéo dit donc « au moins dix pour cent », qui est vrai dans les deux
+lectures, et ne répartit pas.
+
+**Les 84 et 250 millions du séquestre** sont les soldes minimums du projet
+d'accord, lus sur l'image des pages scannées. Version signée non lue.
+
+**Les 125 et 183 millions de dollars de la scène 6** sont les ventes et les
+charges d'exploitation ferroviaires de l'exercice clos le 30 juin 2020, lues
+dans le rapport de l'Auditor-General, converties au taux officiel de la Banque
+centrale du Kenya à cette date, 106,52 shillings pour 1 dollar.
+
+**Les 413 milliards de shillings** sont les arriérés de Kenya Railways envers
+l'État au 30 juin 2025, tels que le Trésor les écrit. Nous les laissons en
+shillings : c'est une dette interne, et la convertir en dollars donnerait
+l'illusion d'une comparaison avec la dette chinoise.
+
+**Les 3,5 milliards de dollars restant dus en octobre 2025** viennent de la
+presse, pas d'un document du Trésor. Ils sont dits avec leur attribution.
+
+**Conversions.** L'épisode compte en dollars, le shilling n'apparaît qu'une
+fois. Chaque conversion se fait au taux officiel de la Banque centrale du Kenya
+à la date du fait converti, jamais à un taux moyen : 103,4 shillings pour
+1 dollar en juin 2017, 106,52 le 30 juin 2020, 129,53 le 28 juin 2024, 129,23 le
+30 juin 2025.
+
+## How to read the figures
+
+**The 3.6 billion dollars** is the sum of the two phase 1 loans: 1,600 million
+under the preferential buyer credit and 2,003.6 million under the buyer credit.
+Our addition, of two amounts read in the two agreements.
+
+**The 180 million of insurance** is the 179.8 million the buyer credit devotes
+to 85% of the export credit insurance premium, read in the agreement. It is not
+a hidden cost: it is a line of the loan.
+
+**The 90% and the 10%** can be read in the breakdown of the two loans, and they
+come out exactly. Of the 3,603.6 million lent, 3,423.8 go to the commercial
+contract (1,600 from the preferential credit, then 849.0 and 974.8 from the
+buyer credit), that is exactly 90.0% of the contract's 3,804.2 million; the
+remaining 179.8 million is the insurance premium. Kenya pays the rest, at least
+10%, that is 380.4 million. The division is ours, the four amounts are in the
+agreements.
+
+**A contradiction in the contract, which we do not use.** The buyer credit puts
+Kenya's share at 380,420,427.48 dollars and describes it as "fifteen per cent
+(15%) of the Contract Amount (Facilities and Rolling Stocks)". That amount is
+10% of the total contract; 15% of the rolling stock and facilities item alone
+would be 172.0 million. The video therefore says "at least ten percent", which
+is true on either reading, and does not split it.
+
+**The 84 and 250 million of the escrow** are the minimum balances in the draft
+agreement, read off the image of the scanned pages. The signed version was not
+read.
+
+**The 125 and 183 million dollars in scene 6** are the railway sales and railway
+operating costs for the year ended June 30, 2020, read in the Auditor-General's
+report, converted at the Central Bank of Kenya's official rate on that date,
+106.52 shillings to the dollar.
+
+**The 413 billion shillings** are Kenya Railways' arrears to the State at June
+30, 2025, as the Treasury states them. We leave them in shillings: this is a
+domestic debt, and converting it into dollars would suggest a comparison with
+the Chinese debt that does not hold.
+
+**The 3.5 billion dollars still owed in October 2025** come from the press, not
+from a Treasury document. They are stated with their attribution.
+
+**Conversions.** The episode counts in dollars; the shilling appears once. Every
+conversion uses the Central Bank of Kenya's official rate at the date of the
+converted fact, never an average rate: 103.4 shillings to the dollar in June
+2017, 106.52 on June 30, 2020, 129.53 on June 28, 2024, 129.23 on June 30, 2025.
+
+---
+
+## Une précision sur la scène 6
+
+Le jugement de la Haute Cour du 6 novembre 2020 annule les directives d'août
+2019, et suspend l'effet de cette annulation pendant cent quatre-vingts jours,
+le temps pour les parties de régulariser la situation. La vidéo dit
+l'annulation, pas la suspension.
+
+## A note on scene 6
+
+The High Court judgment of November 6, 2020 quashes the August 2019 directives,
+and suspends the effect of that order for one hundred and eighty days, to let
+the parties regularize the situation. The video states the quashing, not the
+suspension.
+
+Pièce · Source : Haute Cour de Mombasa, Ramogi & 3 others v Attorney General &
+4 others, 6 novembre 2020, dispositif, ordres (c) et (d), page 65 du PDF.
+
+---
+
+## Ce que cet épisode ne dit pas
+
+**La version signée de l'accord de séquestre.** Nous n'avons lu qu'un projet.
+Ce que la banque tient réellement sur la caisse du train depuis 2014 peut
+différer de ce projet, et nous ne le savons pas.
+
+**Le volume garanti, année par année.** Les annexes de l'accord de trafic
+manquent. Nous disons le pic de 6 millions de tonnes prévu pour 2020, parce que
+la Haute Cour le cite, et rien d'autre.
+
+**Ce qu'il reste exactement à payer sur le S.G.R.** Les documents publics
+donnent la dette du Kenya envers China Exim tous prêts confondus, pas la part du
+S.G.R. seul, et aucun échéancier après 2025. C'est pour cela que la dernière
+question de l'épisode reste une question.
+
+**La valeur de la ligne dans les comptes de Kenya Railways.** Nous ne l'avons
+pas lue.
+
+**Pourquoi la Chine a accepté.** En octobre 2025 les prêts passent en yuans, en
+décembre les échéances vont à 2040, alors que les garanties sur la caisse du
+train sont fortes et que le Trésor, lui, payait. Aucun document primaire ne dit
+pourquoi. Une analyse d'AidData de juin 2026 y voit une restructuration dont
+l'essentiel vient de l'allongement. Nous n'avons pas mieux, et nous ne
+l'inventons pas.
+
+**L'audit de performance de 2025 sur les prêts rétrocédés**, celui qui établit
+la retenue de fonds par l'autorité portuaire, ne nous est connu que par la
+presse : nous n'avons pas trouvé le document.
+
+**Les longueurs officielles** de la phase 1 et de la phase 2A varient selon les
+sources. Nous ne donnons pas de kilométrage.
+
+## What this episode does not say
+
+**The signed version of the escrow agreement.** We read only a draft. What the
+bank has actually held over the train's cash box since 2014 may differ from that
+draft, and we do not know.
+
+**The guaranteed volume, year by year.** The schedules of the take-or-pay
+agreement are missing. We state the 6 million tonne peak planned for 2020,
+because the High Court quotes it, and nothing else.
+
+**Exactly what is left to pay on the SGR.** Public documents give Kenya's debt to
+China Exim across all loans, not the SGR's share alone, and no schedule after
+2025. That is why the episode's last question stays a question.
+
+**The value of the line in Kenya Railways' accounts.** We did not read it.
+
+**Why China agreed.** In October 2025 the loans switch to yuan, in December the
+maturities move to 2040, while the security over the train's cash box is strong
+and the Treasury itself was paying. No primary document says why. An AidData
+analysis from June 2026 reads it as a restructuring driven mainly by the longer
+tenor. We have nothing better, and we are not inventing it.
+
+**The 2025 performance audit on on-lent loans**, the one that establishes the
+funds retained by the ports authority, is known to us only through the press: we
+did not find the document.
+
+**The official lengths** of phase 1 and phase 2A vary between sources. We give no
+kilometre figure.
+
+---
+
+## Sources
+
+### Documents déposés et lus · Documents held and read
+
+Empreintes SHA-256, 12 premiers caractères, relevées le 19 septembre 2026 ·
+SHA-256 checksums, first 12 characters, recorded on September 19, 2026.
+
+- [1] Preferential Buyer Credit Loan Agreement, phase 1, 11 mai 2014 · May 11, 2014 (d359e206ff85). Copie · copy Okoa Mombasa
+  https://www.okoamombasa.org/wp-content/uploads/2023/12/Preferential-Buyer-Credit-Loan-Agreement-14-May-2014.pdf
+- [2] Buyer Credit Loan Agreement, phase 1, 2014 (a46d5ef53cf1)
+  https://www.okoamombasa.org/wp-content/uploads/2023/12/Mombasa-Nairobi-SGR-Buyer-Credit-Loan-Agreement-2014.pdf
+- [3] Buyer Credit Loan Agreement, phase 2A, 3 déc. 2015 · December 3, 2015 (864f41460772)
+  https://www.okoamombasa.org/wp-content/uploads/2023/12/Nairobi-Naivasha-SGR-Buyer-Credit-Loan-Agreement-3-Dec-2015.pdf
+- [1d] Take or Pay Agreement, Kenya Railways Corporation et · and Kenya Ports Authority, 30 sept. 2014 · September 30, 2014, pages 1 à 10 sur 12 · pages 1 to 10 of 12 (d37c84c8a878). Lien · link AidData
+  https://china.aiddata.org/projects/37103/
+- [1e] Escrow Agreement, projet arrêté le 20 août 2014 · draft finalized August 20, 2014, pages 1 à 20 · pages 1 to 20 (9c0d80a856b0). Lien · link AidData
+  https://china.aiddata.org/projects/37103/
+- [43 bis] Haute Cour de Mombasa · Mombasa High Court, Ramogi & 3 others v Attorney General & 4 others, [2020] KEHC 10266 (KLR), 6 nov. 2020 · November 6, 2020 (3476787125ba)
+  https://new.kenyalaw.org/akn/ke/judgment/kehc/2020/10266/eng@2020-11-06
+- [4] Cour d'appel · Court of Appeal, Okoiti & another v Attorney General & 3 others, [2020] KECA 589 (KLR), 19 juin 2020 · June 19, 2020 (104eeb9ba234)
+  https://new.kenyalaw.org/akn/ke/judgment/keca/2020/589/eng@2020-06-19
+- [5] Cour suprême · Supreme Court, Kenya Railways Corporation & 2 others v Okoiti & 3 others, [2023] KESC 38 (KLR), 16 juin 2023 · June 16, 2023 (eb67f2a85756)
+  https://new.kenyalaw.org/akn/ke/judgment/kesc/2023/38/eng@2023-06-16
+- [6] National Assembly, Public Investments Committee, Special Report on the Standard Gauge Railway (Phase I), 29 avril 2014 · April 29, 2014 (c0e486eb3a6a). Copie · copy AfriCOG
+  https://africog.org/wp-content/uploads/2017/06/PIC-REPORT.pdf
+- [7] Auditor-General, Kenya Railways Corporation, exercice clos le 30 juin 2020 · year ended June 30, 2020 (1636383ef8bd)
+  https://www.oagkenya.go.ke/wp-content/uploads/2022/11/Kenya-Railways-Corporation-2019-2020.pdf
+- [8] Auditor-General, Kenya Railways Corporation, exercice clos le 30 juin 2022 · year ended June 30, 2022 (c191d7632cec)
+  https://www.oagkenya.go.ke/wp-content/uploads/2023/11/Kenya-Railways-Corporation-2021-2022.pdf
+- [11] National Treasury, Annual Public Debt Management Report 2024/2025 (871bf6b38ed5)
+  https://www.treasury.go.ke/sites/default/files/Annual-Public-Debt-Report-2024-2025.pdf
+- [13] National Treasury, Quarterly Economic and Budgetary Review, 1er semestre · first half 2025/2026, févr. 2026 · February 2026 (72ff0242630a)
+  https://www.treasury.go.ke/sites/default/files/QEBRs/Second%20QEBR%20report%20in%202025-26%20FY.pdf
+- [15] Legal Notice 118 of 2013, Customs and Excise (Railway Development Levy Fund) Regulations (2a72152491ab)
+  https://new.kenyalaw.org/akn/ke/act/ln/2013/118/eng@2022-12-31
+- [16] Miscellaneous Fees and Levies Act 2016, art. 8, version du 1er juil. 2023 · July 1, 2023 version (cbeb6d7f91bc) et · and version du 27 déc. 2024 · December 27, 2024 version (6a1052395ed6)
+  https://new.kenyalaw.org/akn/ke/act/2016/29/eng@2023-07-01
+  https://new.kenyalaw.org/akn/ke/act/2016/29/eng@2024-12-27
+
+### Presse et bases de données · Press and databases
+
+- Conversion en yuans · Switch to yuan, oct. 2025 : Reuters, repris par · via CNBC Africa
+  https://www.cnbcafrica.com/2025/kenya-converts-railway-loan-from-china-into-yuan-to-save-on-interest
+- Échéances portées à 2040 · Maturities extended to 2040, déc. 2025 : Business Daily
+  https://www.businessdailyafrica.com/bd/economy/kenya-extends-tenure-of-three-chinese-sgr-loans-to-2040-5302076
+- Lecture d'AidData · AidData's reading, juin 2026 · June 2026
+  https://www.aiddata.org/blog/kenyas-switch-to-chinese-rmb-denominated-debt-was-a-restructuring-in-disguise
+- Première pierre du prolongement Naivasha-Malaba · Naivasha-Malaba groundbreaking, 19 mars 2026 · March 19, 2026 : Capital FM
+  https://www.capitalfm.co.ke/business/2026/03/ruto-breaks-ground-on-sh549bn-naivasha-malaba-sgr-extension/
+- Mise en service Nairobi-Suswa · Nairobi-Suswa launch, 16 oct. 2019 · October 16, 2019 : The Star
+  https://www.the-star.co.ke/news/2019-10-16-uhuru-launches-nairobi-suswa-sgr-line
+- Retenue de fonds par l'autorité portuaire · Funds retained by the ports authority, 2025 : Daily Nation
+  https://nation.africa/kenya/business/audit-sh6bn-retained-by-kpa-caused-kra-defaults-on-sgr-loan-5253086
+- Le séquestre et les arriérés · The escrow and the arrears, déc. 2025 · December 2025 : Business Daily
+  https://www.businessdailyafrica.com/bd/economy/why-kenya-wants-china-to-loosen-deposit-rule-on-sgr-escrow-account-5288056
+- La rumeur de 2018 et sa suite · The 2018 rumour and what followed : The EastAfrican, 20 déc. 2018 · December 20, 2018
+  https://www.theeastafrican.co.ke/tea/business-tech/mombasa-port-at-risk-as-audit-finds-it-was-used-to-secure-sgr-loan-1408886
+  Étude SAIS-CARI, avril 2022, rapportée par · SAIS-CARI study, April 2022, reported by The Maritime Executive
+  https://maritime-executive.com/article/report-port-of-mombasa-is-not-collateral-for-kenya-s-chinese-loans
+- AidData, Chinese Development Finance, fiches · records 31777, 37103, 47025
+  https://china.aiddata.org/projects/37103/
+- Central Bank of Kenya, taux de change · exchange rates
+  https://www.centralbank.go.ke/statistics/exchange-rates/
+
+---
+
+## Images, voix, musique · Images, voice, music
+
+**Survols · Flyovers.** Google Earth Studio. L'attribution Google reste visible
+dans le coin inférieur de chaque plan concerné, pour toute sa durée. · Google
+attribution stays visible for the full length of every shot concerned.
+
+**Vues satellite · Satellite views.** Contains modified Copernicus Sentinel data.
+Sentinel-2, 10 m par pixel · per pixel.
+
+**Extraits · Clips.** Source : Ebru TV Kenya.
+
+**Photographie · Photograph.** Gare de Nairobi · Nairobi SGR station : Ravi
+Dwivedi, CC BY-SA 4.0, via Wikimedia Commons.
+
+**Cartes et pictogrammes · Maps and pictograms.** Réalisés pour l'épisode.
+Les contours des cartes sont schématiques, dessinés à la main, et la carte le
+dit à l'écran : ils situent, ils ne mesurent pas. · Made for the episode. The map
+outlines are schematic, drawn by hand, and the map says so on screen: they
+locate, they do not measure.
+
+**Voix · Voice.** Voix de synthèse · Synthetic voice (ElevenLabs).
+
+**Musique · Music.** Instrumentaux générés avec Mureka pour Béton & Capital :
+Across the Rift, Rift Valley Transit, Mizigo ya Kesho. · Instrumentals generated
+with Mureka for Béton & Capital.
+
+---
+
+## Recevoir la suite · Get what comes next
+
+Le dossier de l'épisode en PDF, puis le prochain épisode dès sa sortie, par e-mail :
+https://beton-capital.kit.com/eef6f78015
+
+The episode file as a PDF, then the next episode as soon as it is out, by email:
+https://beton-capital.kit.com/eef6f78015
+
+---
+
+## Nous corriger · Correct us
+
+Si un chiffre de cet épisode est faux, écrivez-nous. Les corrections sont
+publiées sur cette page, datées, sans effacer la version d'origine. · If a
+figure in this episode is wrong, write to us. Corrections are published on this
+page, dated, without erasing the original version.
+
+Contact : betoncapital.contact@gmail.com
+
+---
+
+*Béton & Capital est une publication de Sanaga Land International LLC. ·
+Béton & Capital is published by Sanaga Land International LLC.*

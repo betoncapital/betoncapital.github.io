@@ -45,5 +45,34 @@
    "description": "Sources et méthode de l'épisode 2, Béton & Capital. Sources and method of episode 2.",
    "mention": "<strong>Offre en cours au 13 octobre 2026.</strong> The offer is ongoing as of October 13, 2026. Le résultat sera ajouté sur cette page, daté. The outcome will be added to this page, dated."
   }
+ },
+ "ep03": {
+  "numero_fr": "Épisode 3",
+  "numero_en": "Episode 3",
+  "titre_fr": "Mombasa-Nairobi : qui rembourse le train ?",
+  "titre_en": "Mombasa-Nairobi: who repays the train?",
+  "resume_fr": "Un train financé par deux prêts d'une banque publique chinoise, et la\nquestion de qui rembourse quand ses recettes ne suffisent pas.",
+  "resume_en": "A railway financed by two loans from a Chinese state bank, and the\nquestion of who repays when its revenue falls short.",
+  "lien_fr": "ep03/sources/#fr",
+  "lien_en": "ep03/sources/#en",
+  "page": {
+   "mode": "bilingue",
+   "dossier": "ep03/sources",
+   "md": "sources/BC_EP03_sources_et_methode.md",
+   "titres_fr": [
+    "Ce que nous avons fait",
+    "Comment lire les chiffres",
+    "Une précision sur la scène 6",
+    "Ce que cet épisode ne dit pas"
+   ],
+   "titres_en": [
+    "What we did",
+    "How to read the figures",
+    "A note on scene 6",
+    "What this episode does not say"
+   ],
+   "description": "Sources et méthode de l'épisode 3, Béton & Capital. Sources and method of episode 3.",
+   "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
+  }
  }
 }
