@@ -210,8 +210,16 @@ def navigation(commune):
     return '<nav class="langues" aria-label="Langue · Language">%s</nav>' % liens
 
 
-def assemble(racine, titre_page, description, fr, en, commune="", notice=""):
-    """fr et en : (titre, sous_titre, html)."""
+def lien_video(url, fr):
+    """Lien vers la vidéo YouTube de la langue de la section (https://youtu.be/<id> seulement)."""
+    if not re.fullmatch(r"https://youtu\.be/[A-Za-z0-9_-]{11}", url or ""):
+        raise SystemExit("lien YouTube invalide : %r" % (url,))
+    return '<p class="video"><a href="%s">%s</a></p>\n' % (
+        url, "Voir la vidéo sur YouTube" if fr else "Watch the video on YouTube")
+
+
+def assemble(racine, titre_page, description, fr, en, commune="", notice="", videos=None):
+    """fr et en : (titre, sous_titre, html). videos : (url fr, url en) ou None."""
     h = entete(racine).format(titre=html.escape(titre_page),
                               description=html.escape(description), racine=racine)
     h += '<h1 lang="fr">%s</h1>\n' % html.escape(fr[0])
@@ -223,6 +231,8 @@ def assemble(racine, titre_page, description, fr, en, commune="", notice=""):
         h += '<section id="%s" lang="%s">\n' % (lang, lang)
         if st:
             h += '<p class="sous-titre">%s</p>\n' % html.escape(st)
+        if videos:
+            h += lien_video(videos[0] if lang == "fr" else videos[1], lang == "fr")
         h += corps + "\n" + inscription(lang == "fr") + "\n</section>\n"
     if commune:
         h += '<section id="sources">\n%s\n</section>\n' % commune
@@ -253,7 +263,8 @@ def page_deux_fichiers(p):
     racine = "../" * (dossier.strip("/").count("/") + 1)
     ecrit(dossier, assemble(
         racine, "%s · %s" % (t1, t2), p["description"],
-        (t1, s1, corps(p1, b1)), (t2, s2, corps(p2, b2))))
+        (t1, s1, corps(p1, b1)), (t2, s2, corps(p2, b2)),
+        videos=(p["youtube_fr"], p["youtube_en"])))
 
 
 def page_bilingue(p):
@@ -276,16 +287,18 @@ def page_bilingue(p):
         racine, "%s · %s" % (tf, te), p["description"],
         (tf, sf, "\n".join(fr)), (te, se, "\n".join(en)),
         commune="\n".join(commune),
-        notice="\n".join(pre + ["<p>%s</p>" % p["mention"]])))
+        notice="\n".join(pre + ["<p>%s</p>" % p["mention"]]),
+        videos=(p["youtube_fr"], p["youtube_en"])))
 
 
 def episode_li(e, fr):
     l = "fr" if fr else "en"
     note = "" if fr else e.get("note_en", "")
     return ('<li>\n<div class="numero">%s</div>\n<div class="titre">%s</div>\n'
-            '<p>%s\n<a href="%s">%s</a>%s</p>\n</li>'
+            '<p>%s\n<a href="%s">%s</a>%s\n<a href="%s">%s</a></p>\n</li>'
             % (e["numero_" + l], e["titre_" + l], e["resume_" + l], e["lien_" + l],
-               "Sources et méthode" if fr else "Sources and method", note))
+               "Sources et méthode" if fr else "Sources and method", note,
+               e["youtube_" + l], "Voir la vidéo" if fr else "Watch the video"))
 
 
 def accueil(config, episodes):
@@ -370,7 +383,7 @@ def main():
     episodes = [catalogue[i] for i in publies]
     accueil(config, episodes)
     for e in episodes:
-        p = e["page"]
+        p = dict(e["page"], youtube_fr=e["youtube_fr"], youtube_en=e["youtube_en"])
         (page_deux_fichiers if p["mode"] == "deux_fichiers" else page_bilingue)(p)
     return 0
 
