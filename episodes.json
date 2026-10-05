@@ -110,5 +110,35 @@
    "description": "Sources et méthode de l'épisode 4, Béton & Capital. Sources and method of episode 4.",
    "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
   }
+ },
+ "ep05": {
+  "numero_fr": "Épisode 5",
+  "numero_en": "Episode 5",
+  "titre_fr": "Tanger Med (Maroc) : à qui appartient le premier port à conteneurs d'Afrique ?",
+  "titre_en": "Tanger Med (Morocco): who owns Africa's busiest container port?",
+  "resume_fr": "Le premier port à conteneurs d'Afrique, des géants du transport maritime qui louent\nles quais, et la question de ce que l'État a gardé.",
+  "resume_en": "Africa's busiest container port, shipping giants that lease the quays, and the\nquestion of what the State kept.",
+  "lien_fr": "ep05/sources/#fr",
+  "lien_en": "ep05/sources/#en",
+  "youtube_fr": "",
+  "youtube_en": "",
+  "accueil": false,
+  "page": {
+   "mode": "bilingue",
+   "dossier": "ep05/sources",
+   "md": "sources/BC_EP05_sources_et_methode.md",
+   "titres_fr": [
+    "Ce que nous avons fait",
+    "Comment lire les chiffres",
+    "Ce que cet épisode ne dit pas"
+   ],
+   "titres_en": [
+    "What we did",
+    "How to read the figures",
+    "What this episode does not say"
+   ],
+   "description": "Sources et méthode de l'épisode 5, Béton & Capital. Sources and method of episode 5.",
+   "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
+  }
  }
 }
