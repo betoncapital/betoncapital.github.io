@@ -231,8 +231,9 @@ def assemble(racine, titre_page, description, fr, en, commune="", notice="", vid
         h += '<section id="%s" lang="%s">\n' % (lang, lang)
         if st:
             h += '<p class="sous-titre">%s</p>\n' % html.escape(st)
-        if videos:
-            h += lien_video(videos[0] if lang == "fr" else videos[1], lang == "fr")
+        url = (videos[0] if lang == "fr" else videos[1]) if videos else ""
+        if url:                      # épisode pas encore sorti : pas de lien vidéo
+            h += lien_video(url, lang == "fr")
         h += corps + "\n" + inscription(lang == "fr") + "\n</section>\n"
     if commune:
         h += '<section id="sources">\n%s\n</section>\n' % commune
@@ -294,11 +295,12 @@ def page_bilingue(p):
 def episode_li(e, fr):
     l = "fr" if fr else "en"
     note = "" if fr else e.get("note_en", "")
+    video = ('\n<a href="%s">%s</a>' % (e["youtube_" + l], "Voir la vidéo" if fr else "Watch the video")
+             if e.get("youtube_" + l) else "")
     return ('<li>\n<div class="numero">%s</div>\n<div class="titre">%s</div>\n'
-            '<p>%s\n<a href="%s">%s</a>%s\n<a href="%s">%s</a></p>\n</li>'
+            '<p>%s\n<a href="%s">%s</a>%s%s</p>\n</li>'
             % (e["numero_" + l], e["titre_" + l], e["resume_" + l], e["lien_" + l],
-               "Sources et méthode" if fr else "Sources and method", note,
-               e["youtube_" + l], "Voir la vidéo" if fr else "Watch the video"))
+               "Sources et méthode" if fr else "Sources and method", note, video))
 
 
 def accueil(config, episodes):
@@ -381,7 +383,9 @@ def main():
     if inconnus:
         raise SystemExit("site.json : épisode absent de episodes.json : %s" % inconnus)
     episodes = [catalogue[i] for i in publies]
-    accueil(config, episodes)
+    # "accueil": false dans episodes.json : la page Sources est fabriquée, mais l'épisode n'est pas
+    # encore listé sur l'accueil (épisode pas encore sorti ; ses descriptions renvoient déjà à la page)
+    accueil(config, [e for e in episodes if e.get("accueil", True)])
     for e in episodes:
         p = dict(e["page"], youtube_fr=e["youtube_fr"], youtube_en=e["youtube_en"])
         (page_deux_fichiers if p["mode"] == "deux_fichiers" else page_bilingue)(p)

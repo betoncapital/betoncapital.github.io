@@ -80,5 +80,35 @@
    "description": "Sources et méthode de l'épisode 3, Béton & Capital. Sources and method of episode 3.",
    "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
   }
+ },
+ "ep04": {
+  "numero_fr": "Épisode 4",
+  "numero_en": "Episode 4",
+  "titre_fr": "Benban : le désert sans financeurs",
+  "titre_en": "Benban: the desert no one funded",
+  "resume_fr": "Trente-deux centrales solaires dans le désert égyptien, et ce qu'il a fallu écrire dans\nles contrats pour que les développeurs et les banques signent ensemble.",
+  "resume_en": "Thirty-two solar plants in the Egyptian desert, and what had to be written into the\ncontracts for developers and banks to sign together.",
+  "lien_fr": "ep04/sources/#fr",
+  "lien_en": "ep04/sources/#en",
+  "youtube_fr": "",
+  "youtube_en": "",
+  "accueil": false,
+  "page": {
+   "mode": "bilingue",
+   "dossier": "ep04/sources",
+   "md": "sources/BC_EP04_sources_et_methode.md",
+   "titres_fr": [
+    "Ce que nous avons fait",
+    "Comment lire les chiffres",
+    "Ce que cet épisode ne dit pas"
+   ],
+   "titres_en": [
+    "What we did",
+    "How to read the figures",
+    "What this episode does not say"
+   ],
+   "description": "Sources et méthode de l'épisode 4, Béton & Capital. Sources and method of episode 4.",
+   "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
+  }
  }
 }
