@@ -181,7 +181,9 @@ PIED = """</main>
 Contact : <a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gmail.com</a></p>
 <p lang="en">Béton &amp; Capital is published by Sanaga Land International LLC.
 Contact: <a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gmail.com</a></p>
-<p><a href="/">Accueil · Home</a></p>
+<p><a href="/">Accueil · Home</a> ·
+<a href="/confidentialite/">Confidentialité · Privacy</a> ·
+<a href="/conditions/">Conditions · Terms</a></p>
 </footer>
 </div>
 </body>
@@ -218,7 +220,8 @@ def lien_video(url, fr):
         url, "Voir la vidéo sur YouTube" if fr else "Watch the video on YouTube")
 
 
-def assemble(racine, titre_page, description, fr, en, commune="", notice="", videos=None):
+def assemble(racine, titre_page, description, fr, en, commune="", notice="", videos=None,
+             avec_inscription=True):
     """fr et en : (titre, sous_titre, html). videos : (url fr, url en) ou None."""
     h = entete(racine).format(titre=html.escape(titre_page),
                               description=html.escape(description), racine=racine)
@@ -234,7 +237,7 @@ def assemble(racine, titre_page, description, fr, en, commune="", notice="", vid
         url = (videos[0] if lang == "fr" else videos[1]) if videos else ""
         if url:                      # épisode pas encore sorti : pas de lien vidéo
             h += lien_video(url, lang == "fr")
-        h += corps + "\n" + inscription(lang == "fr") + "\n</section>\n"
+        h += corps + "\n" + (inscription(lang == "fr") if avec_inscription else "") + "\n</section>\n"
     if commune:
         h += '<section id="sources">\n%s\n</section>\n' % commune
     h += PIED.format(racine=racine)
@@ -368,6 +371,47 @@ page, dating the correction, without erasing the original version.</p>
         print("AVERTISSEMENT : kit_url vide dans site.json, bloc d'inscription omis.")
 
 
+MAIL = '<a href="mailto:betoncapital.contact@gmail.com">betoncapital.contact@gmail.com</a>'
+
+JURIDIQUES = {
+    "confidentialite": {
+        "fr": ("Règles de confidentialité", "Règles de confidentialité de Béton &amp; Capital.",
+               "<p>Béton &amp; Capital est une publication de Sanaga Land International LLC. "
+               "L'application « Beton Capital » est un outil interne qui sert uniquement à gérer "
+               "la chaîne YouTube de la publication (métadonnées, sous-titres, miniatures, "
+               "commentaires de la chaîne). Elle n'est pas proposée au public. Elle ne collecte, "
+               "ne stocke et ne partage aucune donnée personnelle de tiers. Les jetons d'accès "
+               "restent sur l'ordinateur de l'éditeur. Contact : " + MAIL + ".</p>"),
+        "en": ("Privacy policy", "Privacy policy of Béton &amp; Capital.",
+               "<p>Béton &amp; Capital is published by Sanaga Land International LLC. "
+               "The \"Beton Capital\" application is an internal tool used only to manage the "
+               "publication's YouTube channel (metadata, subtitles, thumbnails, channel comments). "
+               "It is not offered to the public. It does not collect, store or share any personal "
+               "data of third parties. Access tokens stay on the publisher's computer. "
+               "Contact: " + MAIL + ".</p>"),
+    },
+    "conditions": {
+        "fr": ("Conditions d'utilisation", "Conditions d'utilisation de Béton &amp; Capital.",
+               "<p>L'application « Beton Capital » est un outil interne de Béton &amp; Capital, "
+               "une publication de Sanaga Land International LLC. Elle n'est pas proposée au "
+               "public. Son usage est limité à la gestion de la chaîne YouTube de la publication.</p>"),
+        "en": ("Terms of use", "Terms of use of Béton &amp; Capital.",
+               "<p>The \"Beton Capital\" application is an internal tool of Béton &amp; Capital, "
+               "published by Sanaga Land International LLC. It is not offered to the public. "
+               "Its use is limited to managing the publication's YouTube channel.</p>"),
+    },
+}
+
+
+def page_juridique(dossier):
+    """Page bilingue en texte simple (confidentialité, conditions), sans bloc d'inscription."""
+    j = JURIDIQUES[dossier]
+    tf, df, cf = j["fr"]
+    te, de, ce = j["en"]
+    ecrit(dossier, assemble("../", "%s · %s" % (tf, te), html.unescape(df) + " " + html.unescape(de),
+                            (tf, "", cf), (te, "", ce), avec_inscription=False))
+
+
 def main():
     """Les épisodes vivent dans episodes.json ; seuls ceux de episodes_en_ligne
     (site.json) sont fabriqués et listés. Un épisode absent de episodes.json
@@ -389,6 +433,8 @@ def main():
     for e in episodes:
         p = dict(e["page"], youtube_fr=e["youtube_fr"], youtube_en=e["youtube_en"])
         (page_deux_fichiers if p["mode"] == "deux_fichiers" else page_bilingue)(p)
+    for d in JURIDIQUES:
+        page_juridique(d)
     return 0
 
 
