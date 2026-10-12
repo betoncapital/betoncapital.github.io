@@ -1,4 +1,4 @@
-Le site se publie depuis D:etoncapital-site. Ce dossier-ci suit origin/main et ne sert pas à publier.
+Le site se publie depuis D:\betoncapital-site. Ce dossier-ci suit origin/main et ne sert pas à publier.
 
 # Site des sources, Béton & Capital
 
