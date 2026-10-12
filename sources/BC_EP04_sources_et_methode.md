@@ -8,7 +8,7 @@ videos.
 Adresse · Address : https://betoncapital.github.io/ep04/sources/
 Site de la chaîne · Channel website : https://betoncapital.github.io/
 
-Faits arrêtés au 31 octobre 2026. Facts as of October 31, 2026.
+Faits arrêtés au 5 octobre 2026. Facts as of October 5, 2026.
 
 Aucun tiret cadratin dans cette page. Nombres en chiffres.
 
