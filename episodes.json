@@ -138,5 +138,34 @@
    "description": "Sources et méthode de l'épisode 5, Béton & Capital. Sources and method of episode 5.",
    "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
   }
+ },
+ "ep06": {
+  "numero_fr": "Épisode 6",
+  "numero_en": "Episode 6",
+  "titre_fr": "Derna, Douala, Kariba : qui paie quand l'ouvrage est calculé pour un climat disparu ?",
+  "titre_en": "Derna, Douala, Kariba: who pays when a structure is built for a climate that is gone?",
+  "resume_fr": "Un barrage qui cède, un réseau qui déborde, une centrale à l'arrêt :\nune même base de calcul périmée.",
+  "resume_en": "A dam that gives way, a network that floods, a power station at a standstill:\none design basis, expired.",
+  "lien_fr": "ep06/sources/#fr",
+  "lien_en": "ep06/sources/#en",
+  "youtube_fr": "https://youtu.be/dWY43LpjH1I",
+  "youtube_en": "https://youtu.be/YeCTLinyTcg",
+  "page": {
+   "mode": "bilingue",
+   "dossier": "ep06/sources",
+   "md": "sources/BC_EP06_sources_et_methode.md",
+   "titres_fr": [
+    "Ce que nous avons fait",
+    "Comment lire les chiffres",
+    "Ce que cet épisode ne dit pas"
+   ],
+   "titres_en": [
+    "What we did",
+    "How to read the figures",
+    "What this episode does not say"
+   ],
+   "description": "Sources et méthode de l'épisode 6, Béton & Capital. Sources and method of episode 6.",
+   "mention": "Les corrections sont publiées sur cette page, datées. Corrections are published on this page, dated."
+  }
  }
 }
